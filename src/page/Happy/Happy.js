@@ -1,6 +1,7 @@
 import React from 'react';
 import './Happy.scss'
 import {AiOutlineArrowRight} from "react-icons/ai";
+import {Link} from "react-router-dom";
 
 const Happy = () => {
     return (
@@ -26,6 +27,9 @@ const Happy = () => {
                         <h5>Mon-Thu: 10:00 am - 01:00 <br/> am <br/> Fri-Sun: 10:00 am - 02:00 am</h5>
                         <div className='happy--block__manu'></div>
                         <button>Purchase gift card <i><AiOutlineArrowRight/></i></button>
+                        <Link to={'./desserts'}>
+                            <button>Purchase gift card <i><AiOutlineArrowRight/></i></button>
+                        </Link>
                         <div className='happy--block__git'></div>
                     </div>
                     <div className='happy--red'>
@@ -52,6 +56,10 @@ const Happy = () => {
                             </svg>
                         </div>
 
+                        <iframe style={{marginLeft:'65px'}}
+                            src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d5848.508298798211!2d74.5708881!3d42.8674796!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2skg!4v1692165023738!5m2!1sru!2skg"
+                            width="520" height="250" allowFullScreen="" loading="lazy"
+                            referrerPolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>

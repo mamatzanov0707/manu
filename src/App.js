@@ -7,6 +7,9 @@ import "slick-carousel/slick/slick-theme.css";
 import Block from "./Block/Block";
 import Menu from './page/Menu/Menu';
 
+import Desserts from "./page/Desserts/Desserts";
+
+
 function App() {
   return (
     <div className="App">
@@ -14,6 +17,9 @@ function App() {
       <Routes>
           <Route path={'/'} element={<Block/>}/>
           <Route path={"/menu"} element={<Menu/>}/>
+
+          <Route path={'/desserts'} element={<Desserts/>}/>
+
       </Routes>
       <Footer/>
     </div>
