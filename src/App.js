@@ -5,6 +5,7 @@ import {Route, Routes} from "react-router-dom";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Block from "./Block/Block";
+import Menu from './page/Menu/Menu';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header/>
       <Routes>
           <Route path={'/'} element={<Block/>}/>
+          <Route path={"/menu"} element={<Menu/>}/>
       </Routes>
       <Footer/>
     </div>
