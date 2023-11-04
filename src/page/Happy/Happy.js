@@ -1,6 +1,7 @@
 import React from 'react';
 import './Happy.scss'
 import {AiOutlineArrowRight} from "react-icons/ai";
+import {Link} from "react-router-dom";
 
 const Happy = () => {
     return (
@@ -25,7 +26,9 @@ const Happy = () => {
                         <h6>Opening hours:</h6>
                         <h5>Mon-Thu: 10:00 am - 01:00 <br/> am <br/> Fri-Sun: 10:00 am - 02:00 am</h5>
                         <div className='happy--block__manu'></div>
-                        <button>Purchase gift card <i><AiOutlineArrowRight/></i></button>
+                        <Link to={'./desserts'}>
+                            <button>Purchase gift card <i><AiOutlineArrowRight/></i></button>
+                        </Link>
                         <div className='happy--block__git'></div>
                     </div>
                     <div className='happy--red'>
@@ -51,7 +54,10 @@ const Happy = () => {
                                 <path fillRule="evenodd" clipRule="evenodd" d="M10.1543 4.62227C15.3265 4.0442 20.6736 4.0442 25.8458 4.62227C28.6934 4.94053 30.9901 7.1842 31.3244 10.0418C31.9428 15.3293 31.9428 20.6709 31.3244 25.9584C30.9901 28.8159 28.6934 31.0596 25.8458 31.3779C20.6736 31.9559 15.3265 31.9559 10.1543 31.3779C7.30674 31.0596 5.00995 28.8159 4.67573 25.9584C4.05731 20.6709 4.05731 15.3293 4.67573 10.0418C5.00995 7.1842 7.30674 4.94053 10.1543 4.62227ZM25.5 9.00007C24.6716 9.00007 24 9.67164 24 10.5001C24 11.3285 24.6716 12.0001 25.5 12.0001C26.3285 12.0001 27 11.3285 27 10.5001C27 9.67164 26.3285 9.00007 25.5 9.00007ZM10.875 18.0001C10.875 14.065 14.065 10.8751 18 10.8751C21.9351 10.8751 25.125 14.065 25.125 18.0001C25.125 21.9351 21.9351 25.1251 18 25.1251C14.065 25.1251 10.875 21.9351 10.875 18.0001Z" fill="#1F2731"/>
                             </svg>
                         </div>
-
+                        <iframe style={{marginLeft:'65px'}}
+                            src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d5848.508298798211!2d74.5708881!3d42.8674796!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2skg!4v1692165023738!5m2!1sru!2skg"
+                            width="520" height="250" allowFullScreen="" loading="lazy"
+                            referrerPolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
