@@ -6,6 +6,7 @@ import AboutUs from "../../page/AboutUs/AboutUs";
 import Happy from "../../page/Happy/Happy";
 
 const Header = () => {
+
     return (
         <div id='header'>
             <div className="container">
@@ -13,6 +14,7 @@ const Header = () => {
 
                 </div>
             </div>
+
   const scrollToComponent = (componentId) => {
     const element = document.getElementById(componentId);
     if (element) {
