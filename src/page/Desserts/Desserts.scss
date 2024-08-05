@@ -1,9 +1,9 @@
 #desserts {
   padding: 30px 0;
   .desserts {
-    display: flex;
-    align-items: start;
-    justify-content: center;
+    //display: flex;
+    //align-items: center;
+    //justify-content: center;
     &--block {
       background: #1B2026;
       width: 350px;
@@ -23,8 +23,8 @@
           line-height: normal;
         }
         &--lina {
-          margin-left: 5.2rem;
-          width: 150.008px;
+          margin-left: 4.7rem;
+          width: 200px;
           height: 1px;
           background: #E5E5E5;
         }

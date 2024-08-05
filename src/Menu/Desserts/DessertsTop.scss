@@ -1,0 +1,40 @@
+#top{
+  .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    flex-wrap: wrap;
+    &--fake{
+      background: #FFFFFF;
+      margin: 20px 0;
+      height: 300px;
+      border-radius: 4px;
+      h3{
+        color: #1F2731;
+        font-family: Spartan,sans-serif;
+        margin-left: 10px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        padding: 3px 0;
+      }
+      h4{
+        color: #EF272C;
+        font-family: Spartan,sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-left: 10px;
+      }
+      img{
+        background: #FFFFFF;
+        width: 329px;
+        height: 250px;
+        border-radius: 4px;
+      }
+    }
+  }
+}
